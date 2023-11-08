@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import SpeciesQuestions from "../Environment/Species";
+import chess from "../chess.mp3";
 import "./index.css";
 
 const env = [
@@ -86,8 +87,11 @@ const CommonQuiz = (props) => {
   const [showAnswer, setShowAnswer] = useState(false);
   const [questionNo, setQuestionNo] = useState(1);
 
+  const audioRef = React.createRef();
+
   // Function to get a random question
   function getRandomQuestion() {
+    audioRef.current.play();
     setQuestionNo(questionNo + 1);
     const randomIndex = Math.floor(Math.random() * questions.length);
     setCurrentQuestionIndex(randomIndex);
@@ -96,6 +100,7 @@ const CommonQuiz = (props) => {
 
   // Function to show the answer for the current question
   function showAnswerForCurrentQuestion() {
+    audioRef.current.play();
     setShowAnswer(true);
   }
 
@@ -126,6 +131,9 @@ const CommonQuiz = (props) => {
 
       <button onClick={showAnswerForCurrentQuestion}>Show Answer</button>
       <button onClick={moveToNextQuestion}>Next Question</button>
+      <audio ref={audioRef}>
+        <source src={chess} type="audio/mpeg" />
+      </audio>
     </div>
   );
 };
