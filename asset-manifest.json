@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sam0023/Exam_Practice.git/static/css/main.4e7ca3c9.css",
-    "main.js": "/sam0023/Exam_Practice.git/static/js/main.650a51e4.js",
-    "static/js/787.7759acea.chunk.js": "/sam0023/Exam_Practice.git/static/js/787.7759acea.chunk.js",
-    "index.html": "/sam0023/Exam_Practice.git/index.html",
-    "main.4e7ca3c9.css.map": "/sam0023/Exam_Practice.git/static/css/main.4e7ca3c9.css.map",
-    "main.650a51e4.js.map": "/sam0023/Exam_Practice.git/static/js/main.650a51e4.js.map",
-    "787.7759acea.chunk.js.map": "/sam0023/Exam_Practice.git/static/js/787.7759acea.chunk.js.map"
+    "main.css": "/sam0023/Exam_Practice/static/css/main.4e7ca3c9.css",
+    "main.js": "/sam0023/Exam_Practice/static/js/main.e76a012d.js",
+    "static/js/787.7759acea.chunk.js": "/sam0023/Exam_Practice/static/js/787.7759acea.chunk.js",
+    "index.html": "/sam0023/Exam_Practice/index.html",
+    "main.4e7ca3c9.css.map": "/sam0023/Exam_Practice/static/css/main.4e7ca3c9.css.map",
+    "main.e76a012d.js.map": "/sam0023/Exam_Practice/static/js/main.e76a012d.js.map",
+    "787.7759acea.chunk.js.map": "/sam0023/Exam_Practice/static/js/787.7759acea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e7ca3c9.css",
-    "static/js/main.650a51e4.js"
+    "static/js/main.e76a012d.js"
   ]
 }
