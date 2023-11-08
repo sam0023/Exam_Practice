@@ -7,15 +7,13 @@ import SubtopicList from "./SubtopicList";
 
 //const App = () => <Animalquiz />;
 const App = () => (
-  <div>
-    <HashRouter basename="/">
-      <Routes>
-        <Route exact path="/:subjectId" element={<SubtopicList />} />
+  <HashRouter basename="/">
+    <Routes>
+      <Route exact path="/:subjectId" element={<SubtopicList />} />
 
-        <Route exact path="/:subjectId/:subtopicId" element={<CommonQuiz />} />
-        <Route exac path="/" element={<Home />} />
-      </Routes>
-    </HashRouter>
-  </div>
+      <Route exact path="/:subjectId/:subtopicId" element={<CommonQuiz />} />
+      <Route exac path="/" element={<Home />} />
+    </Routes>
+  </HashRouter>
 );
 export default App;
