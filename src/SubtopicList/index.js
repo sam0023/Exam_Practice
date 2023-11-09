@@ -4,14 +4,16 @@ import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 
 const env = [
-  { id: 1, topicId: "np" },
-  { id: 2, topicId: "tr" },
-  { id: 3, topicId: "species" },
+  { id: 1, topicId: "np", topicName: "National Parks" },
+  { id: 2, topicId: "tr", topicName: "Tiger Reserves" },
+  { id: 3, topicId: "species", topicName: "Species" },
 ];
 const polity = [
-  { id: 1, topicId: "fr" },
-  { id: 2, topicId: "fd" },
+  { id: 1, topicId: "fr", topicName: "Fundamental Rights" },
+  { id: 2, topicId: "fd", topicName: "Fundamental Duties" },
 ];
+
+const apHis = [{ id: 1, topicId: "printing", topicName: "Printing" }];
 
 const subjects = [
   {
@@ -21,6 +23,10 @@ const subjects = [
   {
     id: "polity",
     data: polity,
+  },
+  {
+    id: "apHis",
+    data: apHis,
   },
 ];
 const SubtopicList = (props) => {
@@ -43,7 +49,7 @@ const SubtopicList = (props) => {
         {subtopic.map((subtopic) => (
           <li key={subtopic.id}>
             <Link to={`/${subjectId}/${subtopic.topicId}`}>
-              {subtopic.topicId}
+              {subtopic.topicName}
             </Link>
           </li>
         ))}

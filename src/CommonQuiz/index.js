@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import SpeciesQuestions from "../Environment/Species";
+import AphistoryPrintingQuestions from "../Subjects/ApHistory/Printing";
 import chess from "../chess.mp3";
 import "./index.css";
 
@@ -65,9 +66,17 @@ const polity = [
     ],
   },
 ];
+
+const apHistory = [
+  {
+    topic: "printing",
+    questions: AphistoryPrintingQuestions,
+  },
+];
 const subjects = {
   env: env,
   polity: polity,
+  apHis: apHistory,
 };
 
 const questionsList = (subjectId, subtopicId) => {

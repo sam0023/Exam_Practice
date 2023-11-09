@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 
 function Home() {
   const subjects = [
-    { id: 1, name: "env" },
-    { id: 2, name: "polity" },
+    { id: 1, name: "Env", code: "env" },
+    { id: 2, name: "Polity", code: "polity" },
+    { id: 3, name: "Ap history", code: "apHis" },
     // Add more subjects here
   ];
 
@@ -15,7 +16,7 @@ function Home() {
       <ul>
         {subjects.map((subject) => (
           <li key={subject.id}>
-            <Link to={`/${subject.name}`}>{subject.name}</Link>
+            <Link to={`/${subject.code}`}>{subject.name}</Link>
           </li>
         ))}
       </ul>
