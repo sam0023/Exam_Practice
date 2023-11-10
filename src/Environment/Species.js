@@ -1,6 +1,8 @@
 const cr = "CR";
-const v = "Vu";
-const en = "En";
+const v = "VU";
+const en = "EN";
+const nt = "NT";
+const lc = "LC";
 
 const SpeciesQuestions = [
   {
@@ -46,7 +48,7 @@ const SpeciesQuestions = [
   },
   {
     questionText: "Himalayan Brown Bear",
-    ans: [cr, "North India"],
+    ans: [cr, "Himachal Pradesh"],
   },
   {
     questionText: "Orangutas",
@@ -73,15 +75,20 @@ const SpeciesQuestions = [
     ans: [cr, "National chambal santuary", "NC ghadiyal WLS"],
   },
   {
-    questionText: "Three stiped Roof Turtle",
-    ans: [cr, "Tipura", "chambal(UP, bhiral, mp,raj,assam)"],
+    questionText: "Three striped Roof Turtle",
+    ans: [
+      cr,
+      "Tipura",
+      "chambal(UP, bhiral, mp,raj,assam)",
+      "endemic to south Asia",
+    ],
   },
   {
     questionText: "Northern river Terrapin",
     ans: [cr, "WB, odissa"],
   },
   {
-    questionText: "Haksbill sea turtle",
+    questionText: "Hawksbill sea turtle",
     ans: [cr, "Andaman, TN, Orissa"],
   },
   {
@@ -94,7 +101,7 @@ const SpeciesQuestions = [
   },
   {
     questionText: "Raorchsters Sanctisilvaticus",
-    ans: [cr],
+    ans: [cr, "kerala"],
   },
   {
     questionText: "Ponmudi Frog",
@@ -102,11 +109,11 @@ const SpeciesQuestions = [
   },
   {
     questionText: "Great Indian Buster",
-    ans: [cr, "Keolado"],
+    ans: [cr, "Keolado", "Heaviest Flying Bird", "Rajastan State Animal"],
   },
   {
     questionText: "Siberian Crane",
-    ans: [cr],
+    ans: [cr, "Haryana, Rajastan"],
   },
   {
     questionText: "Himalayan Quayal",
@@ -206,7 +213,7 @@ const SpeciesQuestions = [
   },
   {
     questionText: "White Bellied Musk Deer",
-    ans: [en, "Uttarakand"],
+    ans: [en, "Uttarakand", "also known as Askot Musk Deer"],
   },
   {
     questionText: "Lion Tailed Macoque",
@@ -218,7 +225,7 @@ const SpeciesQuestions = [
   },
   {
     questionText: "Sangai Dancing Deer",
-    ans: [en, "Loktak"],
+    ans: [en, "Loktak", "Also Known as Swamp deer"],
   },
   {
     questionText: "Eids Deer",
@@ -251,6 +258,110 @@ const SpeciesQuestions = [
   {
     questionText: "Gangas Dolphin",
     ans: [en, ""],
+  },
+  {
+    questionText: "Wild water Buffalo",
+    ans: [en, "Assam"],
+  },
+  {
+    questionText: "White winged wood duck",
+    ans: [en, "Assam"],
+  },
+  {
+    questionText: "Asian Wild Dog",
+    ans: [en, "Sikkim"],
+  },
+  {
+    questionText: "Wild Buffalo",
+    ans: [en, "Orissa"],
+  },
+  {
+    questionText: "Black beiled Tern",
+    ans: [en, "Papikondalu"],
+  },
+  {
+    questionText: "Salim Ali Fruit Bat",
+    ans: [en, "Kerala"],
+  },
+  {
+    questionText: "Indian Pangolin",
+    ans: [en, "Kerala"],
+  },
+  {
+    questionText: "Himalayan Serow",
+    ans: [v, "J&k, Assam"],
+  },
+  {
+    questionText: "Slag",
+    ans: [v, "Uttarakhand"],
+  },
+  {
+    questionText: "Asatic Black Bear",
+    ans: [v, "Uttarakhanad"],
+  },
+  {
+    questionText: "Great Spotted Eagle",
+    ans: [v, "Rajastan"],
+  },
+  {
+    questionText: "Stump tiled Macquaque",
+    ans: [v, "Meghalaya"],
+  },
+  {
+    questionText: "Blyths Tragopn",
+    ans: [v, "Mizoram"],
+  },
+  {
+    questionText: "Macqueen Bustard",
+    ans: [v, "Gujarat"],
+  },
+  {
+    questionText: "Naliya Great Indian Bustard Santuary",
+    ans: [v, "Gujarat"],
+  },
+  {
+    questionText: "Muggan Crocodile",
+    ans: [v, "Orissa"],
+  },
+  {
+    questionText: "Yellow Throated Bulbul",
+    ans: [v, "A.P"],
+  },
+  {
+    questionText: "Pale Capped Pigean",
+    ans: [v, "Papi kondalu"],
+  },
+  {
+    questionText: "Nilgiri Marten",
+    ans: [v, ""],
+  },
+  {
+    questionText: "Indian Star Tortoise",
+    ans: [v, "Tamil Nadu"],
+  },
+  {
+    questionText: "Himalayan Thar",
+    ans: [nt, "North India"],
+  },
+  {
+    questionText: "Mr. Humes Pheasant",
+    ans: [nt, "Mizoram state animal"],
+  },
+  {
+    questionText: "Oriental Darter",
+    ans: [nt, "Papikondalu"],
+  },
+  {
+    questionText: "Indian Pacific Bottlenese dolphin",
+    ans: [nt, "Gulf of mannar"],
+  },
+  {
+    questionText: "Great white pelican",
+    ans: [lc, "kolleru"],
+  },
+  {
+    questionText: "Black Buck",
+    ans: [lc, "Gujarat"],
   },
 ];
 
