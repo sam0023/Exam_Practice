@@ -126,7 +126,7 @@ const AphistoryPrintingQuestions = [
     questionText: "Purushardha Pradaniya",
     ans: [
       "Uma Rangnayakulu from Machilipatam",
-      "T.V. Lingam used to publish in this",
+      "K.V. Lingam used to publish in this",
     ],
   },
   {
@@ -164,6 +164,121 @@ const AphistoryPrintingQuestions = [
   {
     questionText: "Swaraj",
     ans: ["Tangutoru Prakasam Pantulu", "English"],
+  },
+  {
+    questionText: "Madras Native Assosiation",
+    ans: [
+      "Founder: Gajula Laximi NarsaSetty",
+      "Director: Soma sundaram Setty",
+      "1st Social Reform Assosiation",
+      "Worked on soving problems of people",
+      "Opposed Christian Missionaries",
+      "Opposed Child Marriage, Encouraged Widow Remarriage",
+    ],
+  },
+  {
+    questionText: "Madras Maha sabha",
+    ans: [
+      "Founder: G subbha rao",
+      "Chairman: Ranga Nayudu",
+      "Director: Ananda charyulu",
+      "fought for Eward Bill",
+      "Age , (india, England center ) civil Services",
+      "Opoosed Caste System",
+    ],
+  },
+  {
+    questionText: "Kaiknada Sahiti Sabha is a Part of?",
+    ans: ["Madras Maha sabha"],
+  },
+  {
+    questionText: "Kakinada Sahiti Sabha",
+    ans: ["Kasi batla Bhrammayya Satri"],
+  },
+  {
+    questionText: "Who is 1st person to become part of Bharmma Samaj",
+    ans: ["Mannava Bucchaya Pantulu"],
+  },
+  {
+    questionText: "where did Parthana Samaj 1st started in A.P",
+    ans: ["Rajamundry"],
+  },
+  {
+    questionText: "Prominent Leaders in Bhramma samaj from A.p",
+    ans: [
+      "Atmuru Laxmi Narashimham",
+      "K.V Lingam",
+      "Raghupati Venkata Ratanam",
+      "Desi Raju",
+    ],
+  },
+  {
+    questionText:
+      "Who got the tile 'బ్రహ్మర్షి' for his contribution in Bhramma samaj ",
+    ans: ["Raghupati Venkata Ratnam"],
+  },
+  {
+    questionText: "Bhramma Samaja Trayam",
+    ans: ["Raghupati Venkata Ratnam", "Desi Raju", "K.V Lingam"],
+  },
+  {
+    questionText: "దివ్య జ్ఞాన సమాజం",
+    ans: ["Tusky, Alkart", "Main Theme: మానవుని సేవ", "HQ: Madras Adiyar"],
+  },
+  {
+    questionText: "Who invited kurnal Alcart to AP ",
+    ans: ["Pragada Subbha Rao"],
+  },
+  {
+    questionText: "Who 1st transulated Gita to English",
+    ans: ["Charles Wilkins"],
+  },
+  {
+    questionText: "B.T college",
+    ans: [
+      "Anne Besant in Madanapalli",
+      "Anne besant Papers: New India,'Common Wheel' ",
+    ],
+  },
+  {
+    questionText: "1st Principal of B.T college",
+    ans: ["J H cousin", "Margarete Cousin-Janagana Mana "],
+  },
+  {
+    questionText: "Anne Beasant Adopted son?",
+    ans: ["Jiddu Krishna Murthi"],
+  },
+  {
+    questionText: "At The Feet Of The Master book?",
+    ans: ["Jiddu Krishna Murthy"],
+  },
+  {
+    questionText: "Jiddu Krishna Murty philosophy",
+    ans: ["Endeavour alone in search of truth"],
+  },
+  {
+    questionText: "Jiddu Krishna Murthy's school?",
+    ans: ["Rishi Valley School of MadanaPalli"],
+  },
+  {
+    questionText: "Godavari Dam",
+    ans: ["1847-52"],
+  },
+  {
+    questionText: "Krishna Dam",
+    ans: ["1850-55"],
+  },
+  {
+    questionText: "Who was 1st to introduce Social issues through Drams",
+    ans: [
+      "Dharmavaram Ramakrishnamacharyulu",
+      "ఆంధ్ర నాటక పితామహుడు",
+      "Nasar a famous 'Burra katha dramatist'",
+    ],
+  },
+  {
+    questionText: "Who was known as 'Hari katha Pitamaha'",
+    ans: ["Adi batla Narayana"],
   },
 ];
 
