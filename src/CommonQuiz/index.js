@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import SpeciesQuestions from "../Environment/Species";
 import AphistoryPrintingQuestions from "../Subjects/ApHistory/Printing";
+import Dams_falls_lakes from "../Subjects/Geography/Dams_falls_lakes";
 import chess from "../chess.mp3";
 import "./index.css";
 
@@ -73,10 +74,17 @@ const apHistory = [
     questions: AphistoryPrintingQuestions,
   },
 ];
+const geography = [
+  {
+    topic: "lakes_dams_falls",
+    questions: Dams_falls_lakes,
+  },
+];
 const subjects = {
   env: env,
   polity: polity,
   apHis: apHistory,
+  geo: geography,
 };
 
 const questionsList = (subjectId, subtopicId) => {

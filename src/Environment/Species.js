@@ -265,7 +265,7 @@ const SpeciesQuestions = [
   },
   {
     questionText: "White winged wood duck",
-    ans: [en, "Assam"],
+    ans: [en, "Assam", "Dibru saikova"],
   },
   {
     questionText: "Asian Wild Dog",

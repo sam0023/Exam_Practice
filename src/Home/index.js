@@ -6,6 +6,7 @@ function Home() {
     { id: 1, name: "Env", code: "env" },
     { id: 2, name: "Polity", code: "polity" },
     { id: 3, name: "Ap history", code: "apHis" },
+    { id: 4, name: "Geography", code: "geo" },
     // Add more subjects here
   ];
 

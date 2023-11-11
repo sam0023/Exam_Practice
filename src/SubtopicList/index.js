@@ -15,6 +15,10 @@ const polity = [
 
 const apHis = [{ id: 1, topicId: "printing", topicName: "Printing" }];
 
+const geo = [
+  { id: 1, topicId: "lakes_dams_falls", topicName: "Dams, Lakes, Waterfalls" },
+];
+
 const subjects = [
   {
     id: "env",
@@ -27,6 +31,10 @@ const subjects = [
   {
     id: "apHis",
     data: apHis,
+  },
+  {
+    id: "geo",
+    data: geo,
   },
 ];
 const SubtopicList = (props) => {
