@@ -4,6 +4,9 @@ import SpeciesQuestions from "../Environment/Species";
 import AphistoryPrintingQuestions from "../Subjects/ApHistory/Printing";
 import Dams_falls_lakes from "../Subjects/Geography/Dams_falls_lakes";
 import chess from "../chess.mp3";
+import ReformersBooks from "../Subjects/ApHistory/ReformersBooks";
+import ReformersTitles from "../Subjects/ApHistory/ReformersTitles";
+import SocialReforms from "../Subjects/ApHistory/SocialReforms";
 import "./index.css";
 
 const env = [
@@ -72,6 +75,18 @@ const apHistory = [
   {
     topic: "printing",
     questions: AphistoryPrintingQuestions,
+  },
+  {
+    topic: "socialReforms",
+    questions: SocialReforms,
+  },
+  {
+    topic: "reformersBooks",
+    questions: ReformersBooks,
+  },
+  {
+    topic: "reformersTitles",
+    questions: ReformersTitles,
   },
 ];
 const geography = [

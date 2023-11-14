@@ -13,7 +13,12 @@ const polity = [
   { id: 2, topicId: "fd", topicName: "Fundamental Duties" },
 ];
 
-const apHis = [{ id: 1, topicId: "printing", topicName: "Printing" }];
+const apHis = [
+  { id: 1, topicId: "printing", topicName: "Printing" },
+  { id: 2, topicId: "socialReforms", topicName: "Social Reforms" },
+  { id: 3, topicId: "reformersTitles", topicName: "Social Reformers Titles" },
+  { id: 4, topicId: "reformersBooks", topicName: "Social Reformers Books" },
+];
 
 const geo = [
   { id: 1, topicId: "lakes_dams_falls", topicName: "Dams, Lakes, Waterfalls" },

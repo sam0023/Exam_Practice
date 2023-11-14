@@ -280,6 +280,22 @@ const AphistoryPrintingQuestions = [
     questionText: "Who was known as 'Hari katha Pitamaha'",
     ans: ["Adi batla Narayana"],
   },
+  {
+    questionText: "Sathi Hitabhodini",
+    ans: ["KVL"],
+  },
+  {
+    questionText: "Satya samvardhini",
+    ans: ["KVL"],
+  },
+  {
+    questionText: "Satya Vadhini",
+    ans: ["KVL"],
+  },
+  {
+    questionText: "Hasya Vardhini",
+    ans: ["Kokonda Venkata Ratnam"],
+  },
 ];
 
 export default AphistoryPrintingQuestions;
