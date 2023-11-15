@@ -296,6 +296,30 @@ const AphistoryPrintingQuestions = [
     questionText: "Hasya Vardhini",
     ans: ["Kokonda Venkata Ratnam"],
   },
+  {
+    questionText: "బ్రహ్మ ప్రకాశిక",
+    ans: ["రఘుపతి వెంకటరత్నం నాయుడు in English"],
+  },
+  {
+    questionText: "Fellow worker",
+    ans: ["రఘుపతి వెంకటరత్నం నాయుడు"],
+  },
+  {
+    questionText: "Peoples Friend",
+    ans: ["రఘుపతి వెంకటరత్నం నాయుడు"],
+  },
+  {
+    questionText: "Voice of truth",
+    ans: ["దేశిరాజు పెద్దబాపయ్య"],
+  },
+  {
+    questionText: "ఆంధ్ర సాహిత్య పరిషత్ paper & Assoiation",
+    ans: ["జయంతి రామయ్య"],
+  },
+  {
+    questionText: "",
+    ans: [""],
+  },
 ];
 
 export default AphistoryPrintingQuestions;

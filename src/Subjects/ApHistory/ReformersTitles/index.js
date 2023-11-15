@@ -31,6 +31,34 @@ const ReformersTitles = [
     questionText: "Vidya sagar of south India",
     ans: ["KVL"],
   },
+  {
+    questionText: "బ్రహ్మర్షి",
+    ans: ["రఘుపతి వెంకటరత్నం నాయుడు"],
+  },
+  {
+    questionText: "కులపతి",
+    ans: ["రఘుపతి వెంకటరత్నం నాయుడు"],
+  },
+  {
+    questionText: "అభినవ సోక్రటీస్",
+    ans: ["రఘుపతి వెంకటరత్నం నాయుడు"],
+  },
+  {
+    questionText: "స్వేతాబర ఋషి",
+    ans: ["రఘుపతి వెంకటరత్నం నాయుడు"],
+  },
+  {
+    questionText: "నైట్ హుడ్",
+    ans: ["రఘుపతి వెంకటరత్నం నాయుడు"],
+  },
+  {
+    questionText: "సర్",
+    ans: ["రఘుపతి వెంకటరత్నం నాయుడు"],
+  },
+  {
+    questionText: "కైజర్-ఈ-హింద",
+    ans: ["రఘుపతి వెంకటరత్నం నాయుడు"],
+  },
 ];
 
 export default ReformersTitles;

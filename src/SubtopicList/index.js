@@ -18,6 +18,7 @@ const apHis = [
   { id: 2, topicId: "socialReforms", topicName: "Social Reforms" },
   { id: 3, topicId: "reformersTitles", topicName: "Social Reformers Titles" },
   { id: 4, topicId: "reformersBooks", topicName: "Social Reformers Books" },
+  { id: 5, topicId: "kvlEra", topicName: "Era of KVL" },
 ];
 
 const geo = [

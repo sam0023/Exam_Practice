@@ -64,6 +64,30 @@ const SocialReforms = [
     questionText: "Thiest High School",
     ans: ["KVL"],
   },
+  {
+    questionText: "సాంఘిక శుద్ధి సంఘం",
+    ans: ["రఘుపతి వెంకటరత్నం నాయుడు in Bandar"],
+  },
+  {
+    questionText: "బ్రహ్మపాసన మందిరం",
+    ans: ["రఘుపతి వెంకటరత్నం నాయుడు"],
+  },
+  {
+    questionText: "ఆంధ్ర బ్రహ్మ",
+    ans: ["రఘుపతి వెంకటరత్నం నాయుడు"],
+  },
+  {
+    questionText: "ఆంధ్ర రాష్ట్ర బ్రహ్మ ధర్మ ప్రచార నిధి",
+    ans: ["రఘుపతి వెంకటరత్నం నాయుడు"],
+  },
+  {
+    questionText: "కరుణాలయం",
+    ans: ["రఘుపతి వెంకటరత్నం నాయుడు"],
+  },
+  {
+    questionText: "",
+    ans: [""],
+  },
 ];
 
 export default SocialReforms;

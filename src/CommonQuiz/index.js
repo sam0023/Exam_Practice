@@ -7,6 +7,7 @@ import chess from "../chess.mp3";
 import ReformersBooks from "../Subjects/ApHistory/ReformersBooks";
 import ReformersTitles from "../Subjects/ApHistory/ReformersTitles";
 import SocialReforms from "../Subjects/ApHistory/SocialReforms";
+import KvlEra from "../Subjects/ApHistory/KvlEra";
 import "./index.css";
 
 const env = [
@@ -87,6 +88,10 @@ const apHistory = [
   {
     topic: "reformersTitles",
     questions: ReformersTitles,
+  },
+  {
+    topic: "kvlEra",
+    questions: KvlEra,
   },
 ];
 const geography = [
