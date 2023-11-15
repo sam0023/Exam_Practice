@@ -61,7 +61,7 @@ const polity = [
     questions: [
       {
         questionText: " fd1?",
-        ans: [1, 2, 3],
+        ans: [1, 2, 3, 4, 5],
       },
       {
         questionText: " fd2?",
