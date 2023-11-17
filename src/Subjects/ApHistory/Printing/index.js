@@ -328,30 +328,7 @@ const AphistoryPrintingQuestions = [
 		questionText: 'కృష్ణా పత్రిక',
 		ans: ['కొండా వెంకటప్పయ్య'],
 	},
-	{
-		questionText: '',
-		ans: [''],
-	},
-	{
-		questionText: '',
-		ans: [''],
-	},
-	{
-		questionText: '',
-		ans: [''],
-	},
-	{
-		questionText: '',
-		ans: [''],
-	},
-	{
-		questionText: '',
-		ans: [''],
-	},
-	{
-		questionText: '',
-		ans: [''],
-	},
+
 ];
 
 export default AphistoryPrintingQuestions;

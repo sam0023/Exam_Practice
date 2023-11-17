@@ -96,10 +96,7 @@ const SocialReforms = [
 		questionText: '',
 		ans: [''],
 	},
-	{
-		questionText: '',
-		ans: [''],
-	},
+
 ];
 
 export default SocialReforms;
