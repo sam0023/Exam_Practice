@@ -28,6 +28,11 @@ const geo = [
 const eco = [
 	{id: 1, topicId: 'banking', topicName: 'Banking'},
 ];
+const st = [
+	{
+		id: 1, topicId: 'energy', topicName: 'Energy',
+	},
+];
 const subjects = [
 	{
 		id: 'env',
@@ -48,6 +53,10 @@ const subjects = [
 	{
 		id: 'eco',
 		data: eco,
+	},
+	{
+		id: 'st',
+		data: st,
 	},
 ];
 const SubtopicList = props => {

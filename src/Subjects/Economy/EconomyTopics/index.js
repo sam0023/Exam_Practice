@@ -2,7 +2,7 @@ import Banking from '../Banking';
 
 const EconomyTopics = [
 	{
-		topic: 'banking',
+		topicId: 'banking',
 
 		questions: Banking,
 	},

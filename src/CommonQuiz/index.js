@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {useParams} from 'react-router-dom';
-import SpeciesQuestions from '../Environment/Species';
+import SpeciesQuestions from '../Subjects/Environment/Species';
 import AphistoryPrintingQuestions from '../Subjects/ApHistory/Printing';
 // eslint-disable-next-line camelcase
 import Dams_falls_lakes from '../Subjects/Geography/Dams_falls_lakes';
@@ -11,11 +11,12 @@ import SocialReforms from '../Subjects/ApHistory/SocialReforms';
 import KvlEra from '../Subjects/ApHistory/KvlEra';
 import LaterKvl from '../Subjects/ApHistory/LaterKvl';
 import EconomyTopics from '../Subjects/Economy/EconomyTopics';
+import ScienceAndTechData from '../Subjects/ScienceAndTech/ScienceAndTechData';
 import './index.css';
 
 const env = [
 	{
-		topic: 'np',
+		topicId: 'np',
 		questions: [
 			{
 				questionText: ' np1?',
@@ -28,7 +29,7 @@ const env = [
 		],
 	},
 	{
-		topic: 'tr',
+		topicId: 'tr',
 		questions: [
 			{
 				questionText: ' np1?',
@@ -41,14 +42,14 @@ const env = [
 		],
 	},
 	{
-		topic: 'species',
+		topicId: 'species',
 		questions: SpeciesQuestions,
 	},
 ];
 
 const polity = [
 	{
-		topic: 'fr',
+		topicId: 'fr',
 		questions: [
 			{
 				questionText: ' fr1?',
@@ -61,7 +62,7 @@ const polity = [
 		],
 	},
 	{
-		topic: 'fd',
+		topicId: 'fd',
 		questions: [
 			{
 				questionText: ' fd1?',
@@ -77,33 +78,33 @@ const polity = [
 
 const apHistory = [
 	{
-		topic: 'printing',
+		topicId: 'printing',
 		questions: AphistoryPrintingQuestions,
 	},
 	{
-		topic: 'socialReforms',
+		topicId: 'socialReforms',
 		questions: SocialReforms,
 	},
 	{
-		topic: 'reformersBooks',
+		topicId: 'reformersBooks',
 		questions: ReformersBooks,
 	},
 	{
-		topic: 'reformersTitles',
+		topicId: 'reformersTitles',
 		questions: ReformersTitles,
 	},
 	{
-		topic: 'kvlEra',
+		topicId: 'kvlEra',
 		questions: KvlEra,
 	},
 	{
-		topic: 'laterKvl',
+		topicId: 'laterKvl',
 		questions: LaterKvl,
 	},
 ];
 const geography = [
 	{
-		topic: 'lakes_dams_falls',
+		topicId: 'lakes_dams_falls',
 		// eslint-disable-next-line camelcase
 		questions: Dams_falls_lakes,
 	},
@@ -115,14 +116,15 @@ const subjects = {
 	apHis: apHistory,
 	geo: geography,
 	eco: EconomyTopics,
+	st: ScienceAndTechData,
 };
 
 const questionsList = (subjectId, subtopicId) => {
-	// Find the matching subtopic based on subjectId and subtopicId
+	// Find the matching subtopic based on subjectId and subtopicId:
 
 	const subject = subjects[subjectId];
 
-	const topic = subject.find(t => t.topic === subtopicId);
+	const topic = subject.find(t => t.topicId === subtopicId);
 	return topic ? topic.questions : [];
 };
 
