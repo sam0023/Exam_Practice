@@ -169,7 +169,9 @@ const CommonQuiz = () => {
 			<p>Question {questionNo}</p>
 			<p>{questions[currentQuestionIndex].questionText}</p>
 
-			<img key='img' alt='Img' src='https://i.postimg.cc/xdN554pN/Screenshot-351.png'/>
+			<button onClick={showAnswerForCurrentQuestion}>Show Answer</button>
+			<button onClick={moveToNextQuestion}>Next Question</button>
+
 			{showAnswer && (
 				<div>
 					<h3>Answer:</h3>
@@ -179,8 +181,6 @@ const CommonQuiz = () => {
 				</div>
 			)}
 
-			<button onClick={showAnswerForCurrentQuestion}>Show Answer</button>
-			<button onClick={moveToNextQuestion}>Next Question</button>
 			<audio ref={audioRef}>
 				<source src={chess} type='audio/mpeg' />
 			</audio>
