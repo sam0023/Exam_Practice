@@ -32,6 +32,9 @@ const st = [
 	{
 		id: 1, topicId: 'energy', topicName: 'Energy',
 	},
+	{
+		id: 2, topicId: 'ecogen', topicName: 'Economy General',
+	},
 ];
 const subjects = [
 	{
