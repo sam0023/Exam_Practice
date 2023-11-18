@@ -147,7 +147,7 @@ const Banking = [
 		ans: ['India Post Payments Bank'],
 	},
 	{
-		questionText: '',
+		questionText: <img key='3' src='https://i.postimg.cc/VvNdBdzf/Screenshot-353.png'/>,
 		ans: [<img key='2' alt='diff_b/w_sfb,cb' src='https://i.postimg.cc/VLW1D706/Screenshot-352.png'/>],
 	},
 	{

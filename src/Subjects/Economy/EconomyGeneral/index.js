@@ -1,8 +1,36 @@
 const EconomyGeneral = [
 	{
-		questionText: '',
+		questionText: 'Ease of doing',
 		ans: [''],
 	},
+	{
+		questionText: 'List All India Financial Institutions (AIFI)',
+		ans: ['EXIM-Export-Import Bank of India-100% Govt', 'NABARD-National Bank for Agriculture and Rural Development-100% RBI', 'NHB-National Housing Bank-Govt', 'SIDBI-Small Indu Dev Bank-IDBI,LIC,SBI', 'NaBFID-National Bank Financing Infra and Dev-statutary,2022,Mumbai and RBI regulates '],
+	},
+	{
+		questionText: 'Who publish RESIDEX',
+		ans: ['NHB'],
+	},
+	{
+		questionText: 'Chairman of NaBFID',
+		ans: ['K.V. Kamath.'],
+	},
+	{
+		questionText: 'who are Primary Dealers (PD)',
+		ans: ['They deal in "primary" market i.e. directly buy fresh G-sec from RBI’s E-Kuber platform and sell it in the secondary market.'],
+
+	},
+	{
+		questionText: 'what is Retail Direct Gilt Account',
+		ans: ['Retail/Ordinary Investors also buy G-Sec directly from RBI by opening a ‘Retail Direct Gilt Account’ (RDG Account).'],
+
+	},
+	{
+		questionText: '',
+		ans: [''],
+
+	},
+
 ];
 
 export default EconomyGeneral;
