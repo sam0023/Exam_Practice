@@ -30,6 +30,66 @@ const EconomyGeneral = [
 		ans: [''],
 
 	},
+	{
+		questionText: '',
+		ans: [''],
+
+	},
+	{
+		questionText: '',
+		ans: [''],
+
+	},
+	{
+		questionText: '',
+		ans: [''],
+
+	},
+	{
+		questionText: '',
+		ans: [''],
+
+	},
+	{
+		questionText: '',
+		ans: [''],
+
+	},
+	{
+		questionText: '',
+		ans: [''],
+
+	},
+	{
+		questionText: '',
+		ans: [''],
+
+	},
+	{
+		questionText: '',
+		ans: [''],
+
+	},
+	{
+		questionText: '',
+		ans: [''],
+
+	},
+	{
+		questionText: '',
+		ans: [''],
+
+	},
+	{
+		questionText: '',
+		ans: [''],
+
+	},
+	{
+		questionText: '',
+		ans: [''],
+
+	},
 
 ];
 

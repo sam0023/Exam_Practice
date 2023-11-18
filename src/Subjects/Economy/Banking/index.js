@@ -151,21 +151,30 @@ const Banking = [
 		ans: [<img key='2' alt='diff_b/w_sfb,cb' src='https://i.postimg.cc/VLW1D706/Screenshot-352.png'/>],
 	},
 	{
-		questionText: '',
-		ans: [''],
+		questionText: <img key='4' src='https://i.postimg.cc/3r6C9TZH/Screenshot-355.png' />,
+		ans: [<img key='4' alt='' src='https://i.postimg.cc/0yNSqXnC/Screenshot-357.png'/>, <img key='4' alt='diff_b/w_sfb,cb' src='https://i.postimg.cc/9M2TsmnD/Screenshot-359.png'/>],
 	},
 	{
-		questionText: '',
-		ans: [''],
+		questionText: 'IRDAI full form',
+		ans: ['Insurance Regulatory and Development Authority (IRDAI) '],
 	},
 	{
-		questionText: '',
-		ans: [''],
+		questionText: 'PFRDA',
+		ans: ['Pension Fund Regulatory and Development Authority (PFRDA)'],
 	},
 	{
-		questionText: '',
-		ans: [''],
+		questionText: 'Who regulates Chit Funds?',
+		ans: ['State Registrar of Chit Funds'],
 	},
+	{
+		questionText: 'Min of Finance control which type of NBFCs',
+		ans: ['NIDHI Companies, some types of Microfinance Companies'],
+	},
+	{
+		questionText: 'what is Shadow Banking',
+		ans: [' Shadow banking is a set of activities and institutions. They operate partially (or fully) outside the traditional commercial banking sector.', 'They are not fully regulated by the RBI.'],
+	},
+
 ];
 
 export default Banking;
