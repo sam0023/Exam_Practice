@@ -26,8 +26,8 @@ const EconomyGeneral = [
 
 	},
 	{
-		questionText: '',
-		ans: [''],
+		questionText: 'KV Kamath Report is related to?',
+		ans: ['2020: RBI had setup this Committee to look into loan restructuring for large companies, who are hit by Corona pandemic'],
 
 	},
 	{
