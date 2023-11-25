@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Exam_Practice/static/css/main.e94295d6.css",
-    "main.js": "/Exam_Practice/static/js/main.944d2476.js",
+    "main.js": "/Exam_Practice/static/js/main.8cbdd102.js",
     "static/js/787.7759acea.chunk.js": "/Exam_Practice/static/js/787.7759acea.chunk.js",
     "static/media/chess.mp3": "/Exam_Practice/static/media/chess.04858efe69237ae7a017.mp3",
     "index.html": "/Exam_Practice/index.html",
     "main.e94295d6.css.map": "/Exam_Practice/static/css/main.e94295d6.css.map",
-    "main.944d2476.js.map": "/Exam_Practice/static/js/main.944d2476.js.map",
+    "main.8cbdd102.js.map": "/Exam_Practice/static/js/main.8cbdd102.js.map",
     "787.7759acea.chunk.js.map": "/Exam_Practice/static/js/787.7759acea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e94295d6.css",
-    "static/js/main.944d2476.js"
+    "static/js/main.8cbdd102.js"
   ]
 }
