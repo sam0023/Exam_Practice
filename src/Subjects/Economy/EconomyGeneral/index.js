@@ -31,9 +31,16 @@ const EconomyGeneral = [
 
 	},
 	{
-		questionText: '',
-		ans: [''],
-
+		questionText: 'Who gave LIQUIDITY PREFERENCE THEORY',
+		ans: ['British Economist John Maynard Keynes in The General Theory of Employment, Interest and Money'],
+	},
+	{
+		questionText: 'What are the 3 motives - people prefer to keep a part of assets in liquid form given in (Book: The General Theory of Employment, Interest and Money, 1936',
+		ans: ['1. Transcation Motive ', '2. Precautionary Motive ', '3. Speculative Motive '],
+	},
+	{
+		questionText: 'what is philip curve',
+		ans: ['Inflation ↑ vs unemployment ↓ graph'],
 	},
 	{
 		questionText: '',

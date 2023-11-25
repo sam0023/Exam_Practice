@@ -29,6 +29,7 @@ const eco = [
 	{id: 1, topicId: 'banking', topicName: 'Banking'},
 	{id: 2, topicId: 'banking2', topicName: 'Banking: Part 2'},
 	{id: 3, topicId: 'basel', topicName: 'Banking: Part 3'},
+	{id: 4, topicId: 'monetarypolicy', topicName: 'Monetary Policy'},
 ];
 const st = [
 	{

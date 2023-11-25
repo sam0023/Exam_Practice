@@ -2,6 +2,7 @@ import Banking from '../Banking';
 import EconomyGeneral from '../EconomyGeneral';
 import BankingPart2 from '../BankingPart2';
 import BaselNorms from '../BaselNorms';
+import MonetaryPolicy from '../MonetaryPolicy';
 
 const EconomyTopics = [
 	{
@@ -19,6 +20,10 @@ const EconomyTopics = [
 	{
 		topicId: 'basel',
 		questions: BaselNorms,
+	},
+	{
+		topicId: 'monetarypolicy',
+		questions: MonetaryPolicy,
 	},
 ];
 
