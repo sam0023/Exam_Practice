@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {useParams} from 'react-router-dom';
 import SpeciesQuestions from '../Subjects/Environment/Species';
 import AphistoryPrintingQuestions from '../Subjects/ApHistory/Printing';
@@ -135,8 +135,23 @@ const CommonQuiz = () => {
 	const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 	const [showAnswer, setShowAnswer] = useState(false);
 	const [questionNo, setQuestionNo] = useState(1);
+	const [isDarkMode, setDarkMode] = useState(false);
 
 	const audioRef = React.createRef();
+
+	// UseEffect to apply theme on initial render
+	useEffect(() => {
+		applyTheme();
+	}, [isDarkMode]);
+
+	const applyTheme = () => {
+		const {body} = document;
+		body.classList.toggle('dark-mode', isDarkMode);
+	};
+
+	const toggleDarkMode = () => {
+		setDarkMode(!isDarkMode);
+	};
 
 	// Function to get a random question
 	function getRandomQuestion() {
@@ -166,10 +181,13 @@ const CommonQuiz = () => {
 	return (
 		<div className='quizcontainer'>
 			<h2>Quiz-Total question:{questions.length}</h2>
+			<button onClick={toggleDarkMode}>
+				{isDarkMode ? 'Light Mode' : 'Dark Mode'}
+			</button>
 			<p>Question {questionNo}</p>
 			<p>{questions[currentQuestionIndex].questionText}</p>
 
-			<button onClick={showAnswerForCurrentQuestion}>Show Answer</button>
+			<button className='' onClick={showAnswerForCurrentQuestion}>Show Answer</button>
 			<button onClick={moveToNextQuestion}>Next Question</button>
 
 			{showAnswer && (
