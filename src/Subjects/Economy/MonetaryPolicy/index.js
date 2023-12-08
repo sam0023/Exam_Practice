@@ -181,6 +181,18 @@ const MonetaryPolicy = [
 		questionText: 'What is Cantillon Effect',
 		ans: ['Loan money goes to rich person'],
 	},
+	{
+		questionText: 'In which year monitary commitee was formed ?',
+		ans: ['2016'],
+	},
+	{
+		questionText: 'Monitary Policy was define dunder which section of RBI Act,1935',
+		ans: ['Section 2'],
+	},
+	{
+		questionText: 'Which committe recommended the Bi-monthly Policy?',
+		ans: ['Urjeet Patel Comittee'],
+	},
 	// {
 	// 	questionText: '',
 	// 	ans: [''],
