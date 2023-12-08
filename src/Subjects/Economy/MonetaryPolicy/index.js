@@ -83,7 +83,7 @@ const MonetaryPolicy = [
 	},
 	{
 		questionText: 'What is Repo, Term Repo, Long Term Repo',
-		ans: ['<24hrs/overnight', '>24hrs:-> 7.14,28 days', '1 to 3 years'],
+		ans: ['<24hrs/overnight', '>24hrs:-> 7,14,28 days', '1 to 3 years'],
 	},
 	{
 		questionText: 'What is the limits does banks can borrow money in repo, term Repo, Long Term Repo',
@@ -147,7 +147,7 @@ const MonetaryPolicy = [
 	},
 	{
 		questionText: 'What is credit Rationing',
-		ans: ['d USSR (till 1990s)– their central bank will not give more than “X” amount as loan to individual banks. And an individual can’t get more than prescribed amount of loans for each category (housing, education, business)'],
+		ans: ['USSR (till 1990s)– their central bank will not give more than “X” amount as loan to individual banks. And an individual can’t get more than prescribed amount of loans for each category (housing, education, business)'],
 	},
 	{
 		questionText: 'What is consumer credit control',
@@ -175,7 +175,7 @@ const MonetaryPolicy = [
 	},
 	{
 		questionText: 'External Bench mark of a Bank is defined by which formula',
-		ans: ['Marginal Cost of Funds based Lending Rate (MCLR) + Spread', 'It updates every 3 months', 'Depends on Repo rate, 91-days T-bills, 182D T-bill yield'],
+		ans: ['It updates every 3 months', 'Depends on Repo rate, 91-days T-bills, 182D T-bill yield'],
 	},
 	{
 		questionText: 'What is Cantillon Effect',
