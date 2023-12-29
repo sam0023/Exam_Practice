@@ -11,6 +11,8 @@ const env = [
 const polity = [
 	{id: 1, topicId: 'fr', topicName: 'Fundamental Rights'},
 	{id: 2, topicId: 'fd', topicName: 'Fundamental Duties'},
+	{id: 3, topicId: 'Legisalationfindarticle', topicName: 'Legisalation-find the Article'},
+	{id: 4, topicId: 'legisalationfindfromarticle', topicName: 'Legisalation-find from the Article'},
 ];
 
 const apHis = [
@@ -30,14 +32,12 @@ const eco = [
 	{id: 2, topicId: 'banking2', topicName: 'Banking: Part 2'},
 	{id: 3, topicId: 'basel', topicName: 'Banking: Part 3'},
 	{id: 4, topicId: 'monetarypolicy', topicName: 'Monetary Policy'},
+	{id: 5, topicId: 'agriculture', topicName: 'Agri-Input'},
+	{id: 6, topicId: 'agricultureII', topicName: 'Agri-Output'},
 ];
 const st = [
-	{
-		id: 1, topicId: 'energy', topicName: 'Energy',
-	},
-	{
-		id: 2, topicId: 'ecogen', topicName: 'Economy General',
-	},
+	{id: 1, topicId: 'energy', topicName: 'Energy'},
+	{id: 2, topicId: 'ecogen', topicName: 'Economy General'},
 ];
 const subjects = [
 	{
@@ -65,14 +65,13 @@ const subjects = [
 		data: st,
 	},
 ];
-const SubtopicList = props => {
+const SubtopicList = () => {
 	// Replace with your subtopic data
-	console.log(props);
+
 	const {subjectId} = useParams();
-	console.log('subjectId', subjectId);
 
 	const subtopicObject = subjects.find(subject => subject.id === subjectId);
-	console.log(subtopicObject);
+
 	const subtopic = subtopicObject.data;
 	// Get subjectId from route parameters
 

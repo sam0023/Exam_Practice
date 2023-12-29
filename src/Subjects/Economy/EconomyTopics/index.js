@@ -3,6 +3,8 @@ import EconomyGeneral from '../EconomyGeneral';
 import BankingPart2 from '../BankingPart2';
 import BaselNorms from '../BaselNorms';
 import MonetaryPolicy from '../MonetaryPolicy';
+import Agriculture from '../Agriculture';
+import AgricultureII from '../AgricultureII';
 
 const EconomyTopics = [
 	{
@@ -25,6 +27,15 @@ const EconomyTopics = [
 		topicId: 'monetarypolicy',
 		questions: MonetaryPolicy,
 	},
+	{
+		topicId: 'agriculture',
+		questions: Agriculture,
+	},
+	{
+		topicId: 'agricultureII',
+		questions: AgricultureII,
+	},
+
 ];
 
 export default EconomyTopics;

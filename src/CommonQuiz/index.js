@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import {useParams} from 'react-router-dom';
-import SpeciesQuestions from '../Subjects/Environment/Species';
 import AphistoryPrintingQuestions from '../Subjects/ApHistory/Printing';
 // eslint-disable-next-line camelcase
 import Dams_falls_lakes from '../Subjects/Geography/Dams_falls_lakes';
@@ -12,69 +11,9 @@ import KvlEra from '../Subjects/ApHistory/KvlEra';
 import LaterKvl from '../Subjects/ApHistory/LaterKvl';
 import EconomyTopics from '../Subjects/Economy/EconomyTopics';
 import ScienceAndTechData from '../Subjects/ScienceAndTech/ScienceAndTechData';
+import EnviTopicsData from '../Subjects/Environment/EnviTopicsData';
+import PolityTopicsData from '../Subjects/Polity/PolityTopicsData';
 import './index.css';
-
-const env = [
-	{
-		topicId: 'np',
-		questions: [
-			{
-				questionText: ' np1?',
-				ans: [1, 2, 3],
-			},
-			{
-				questionText: ' np1?',
-				ans: [1, 2, 3],
-			},
-		],
-	},
-	{
-		topicId: 'tr',
-		questions: [
-			{
-				questionText: ' np1?',
-				ans: [1, 2, 3],
-			},
-			{
-				questionText: ' np1?',
-				ans: [1, 2, 3],
-			},
-		],
-	},
-	{
-		topicId: 'species',
-		questions: SpeciesQuestions,
-	},
-];
-
-const polity = [
-	{
-		topicId: 'fr',
-		questions: [
-			{
-				questionText: ' fr1?',
-				ans: [1, 2, 3],
-			},
-			{
-				questionText: ' fr2?',
-				ans: [1, 2, 3],
-			},
-		],
-	},
-	{
-		topicId: 'fd',
-		questions: [
-			{
-				questionText: ' fd1?',
-				ans: [1, 2, 3, 4, 5],
-			},
-			{
-				questionText: ' fd2?',
-				ans: [1, 2, 3, 4],
-			},
-		],
-	},
-];
 
 const apHistory = [
 	{
@@ -111,8 +50,8 @@ const geography = [
 ];
 
 const subjects = {
-	env,
-	polity,
+	env: EnviTopicsData,
+	polity: PolityTopicsData,
 	apHis: apHistory,
 	geo: geography,
 	eco: EconomyTopics,
@@ -123,14 +62,19 @@ const questionsList = (subjectId, subtopicId) => {
 	// Find the matching subtopic based on subjectId and subtopicId:
 
 	const subject = subjects[subjectId];
-
+	// Console.log(`finding subject=${subject}`);
+	console.log('this is subject');
+	console.log(subject);
 	const topic = subject.find(t => t.topicId === subtopicId);
+	// Console.log(topic);
+	console.log(topic);
 	return topic ? topic.questions : [];
 };
 
 const CommonQuiz = () => {
 	const {subjectId, subtopicId} = useParams();
 
+	console.log(subjectId, subtopicId);
 	const questions = questionsList(subjectId, subtopicId);
 	const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 	const [showAnswer, setShowAnswer] = useState(false);
@@ -157,6 +101,7 @@ const CommonQuiz = () => {
 	function getRandomQuestion() {
 		audioRef.current.play();
 		setQuestionNo(questionNo + 1);
+		console.log(questions);
 		const randomIndex = Math.floor(Math.random() * questions.length);
 		setCurrentQuestionIndex(randomIndex);
 		setShowAnswer(false);
@@ -178,12 +123,17 @@ const CommonQuiz = () => {
 	}
 
 	// Ensure that there are questions available
+	console.log(questions);
 	if (questions.length === 0) {
 		return <div>No questions available.</div>;
 	}
 
 	return (
 		<div className='quizcontainer'>
+			{/* {console.log('hello')}
+			{console.log(questions)}
+			{console.log('length')}
+			{console.log(questions.length)} */}
 			<h2>Quiz-Total question:{questions.length}</h2>
 			<button className='button-64' onClick={toggleDarkMode}>
 				{isDarkMode ? 'Light Mode' : 'Dark Mode'}

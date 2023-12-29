@@ -4,7 +4,7 @@ const en = 'EN';
 const nt = 'NT';
 const lc = 'LC';
 
-const SpeciesQuestions = [
+const Species = [
 	{
 		questionText: 'Pygmy hog',
 		ans: ['CR', 'Orang NP'],
@@ -365,4 +365,4 @@ const SpeciesQuestions = [
 	},
 ];
 
-export default SpeciesQuestions;
+export default Species;
