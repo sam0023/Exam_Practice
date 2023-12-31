@@ -13,6 +13,7 @@ const polity = [
 	{id: 2, topicId: 'fd', topicName: 'Fundamental Duties'},
 	{id: 3, topicId: 'Legisalationfindarticle', topicName: 'Legisalation-find the Article'},
 	{id: 4, topicId: 'legisalationfindfromarticle', topicName: 'Legisalation-find from the Article'},
+	{id: 5, topicId: 'parliament', topicName: 'Parliament'},
 ];
 
 const apHis = [

@@ -1,6 +1,7 @@
 import Fr from '../Fr';
 import LegislationFindArticle from '../LegislationFindArticle';
 import LegislationFindFromArticle from '../LegislationFindFromArticle';
+import Parliament from '../Parliament';
 
 const PolityTopicsData = [
 	{
@@ -15,6 +16,10 @@ const PolityTopicsData = [
 	{
 		topicId: 'legisalationfindfromarticle',
 		questions: LegislationFindFromArticle,
+	},
+	{
+		topicId: 'parliament',
+		questions: Parliament,
 	},
 ];
 
