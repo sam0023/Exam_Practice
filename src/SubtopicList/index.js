@@ -7,6 +7,7 @@ const env = [
 	{id: 1, topicId: 'np', topicName: 'National Parks'},
 	{id: 2, topicId: 'tr', topicName: 'Tiger Reserves'},
 	{id: 3, topicId: 'species', topicName: 'Species'},
+	{id: 4, topicId: 'biodiversity', topicName: 'Biodiversity'},
 ];
 const polity = [
 	{id: 1, topicId: 'fr', topicName: 'Fundamental Rights'},
@@ -14,6 +15,7 @@ const polity = [
 	{id: 3, topicId: 'Legisalationfindarticle', topicName: 'Legisalation-find the Article'},
 	{id: 4, topicId: 'legisalationfindfromarticle', topicName: 'Legisalation-find from the Article'},
 	{id: 5, topicId: 'parliament', topicName: 'Parliament'},
+	{id: 6, topicId: 'executive', topicName: 'Executive'},
 ];
 
 const apHis = [
