@@ -90,7 +90,7 @@ const Judiciary = [
 	},
 	{
 		questionText: 'A.223',
-		ans: ['Appointment of Acting Judges in H.C'],
+		ans: ['Appointment of Acting cheif Judges in H.C when vacant'],
 	},
 	{
 		questionText: 'A.224',
