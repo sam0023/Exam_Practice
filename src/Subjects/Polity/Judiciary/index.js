@@ -9,8 +9,8 @@ const Judiciary = [
 		ans: ['A.132, A.133, A.134, 134(a)-H.C issues, 136'],
 	},
 	{
-		questionText: 'A.136S',
-		ans: ['pecial Leave Petition'],
+		questionText: 'A.136',
+		ans: ['Special Leave Petition'],
 	},
 	{
 		questionText: 'A.137',
@@ -37,7 +37,7 @@ const Judiciary = [
 		ans: ['Seat of the SC'],
 	},
 	{
-		questionText: '124',
+		questionText: 'A.124',
 		ans: ['there shall be sc, Qualification, Appointment, Removal'],
 	},
 	{
