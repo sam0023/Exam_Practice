@@ -16,6 +16,7 @@ const polity = [
 	{id: 4, topicId: 'legisalationfindfromarticle', topicName: 'Legisalation-find from the Article'},
 	{id: 5, topicId: 'parliament', topicName: 'Parliament'},
 	{id: 6, topicId: 'executive', topicName: 'Executive'},
+	{id: 7, topicId: 'judicary', topicName: 'Judicary'},
 ];
 
 const apHis = [
