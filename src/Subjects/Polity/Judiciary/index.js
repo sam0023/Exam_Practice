@@ -69,7 +69,7 @@ const Judiciary = [
 		ans: ['There shall be HC of each state'],
 	},
 	{
-		questionText: 'A.213',
+		questionText: 'A.231',
 		ans: ['President has power to establish a common H.C'],
 	},
 	{
