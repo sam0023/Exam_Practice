@@ -39,7 +39,7 @@ const Elections = [
 		questionText: 'Disqualification of MPs and MLAs',
 		ans: ['Section 8(1,2,3) of ROP Act 1951'],
 	},
-	 
+
 ];
 
 export default Elections;
