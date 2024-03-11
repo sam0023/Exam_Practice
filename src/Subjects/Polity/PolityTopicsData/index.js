@@ -4,6 +4,7 @@ import LegislationFindFromArticle from '../LegislationFindFromArticle';
 import Parliament from '../Parliament';
 import Executive from '../Executive';
 import Judiciary from '../Judiciary';
+import Elections from '../Elections';
 
 const PolityTopicsData = [
 	{
@@ -30,6 +31,10 @@ const PolityTopicsData = [
 	{
 		topicId: 'judicary',
 		questions: Judiciary,
+	},
+	{
+		topicId: 'elections',
+		questions: Elections,
 	},
 ];
 
