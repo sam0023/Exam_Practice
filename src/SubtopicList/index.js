@@ -18,6 +18,7 @@ const polity = [
 	{id: 6, topicId: 'executive', topicName: 'Executive'},
 	{id: 7, topicId: 'judicary', topicName: 'Judicary'},
 	{id: 8, topicId: 'elections', topicName: 'Elections'},
+	{id: 9, topicId: 'csr', topicName: 'CSR'},
 ];
 
 const apHis = [

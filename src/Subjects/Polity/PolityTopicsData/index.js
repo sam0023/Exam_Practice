@@ -5,6 +5,7 @@ import Parliament from '../Parliament';
 import Executive from '../Executive';
 import Judiciary from '../Judiciary';
 import Elections from '../Elections';
+import CSR from '../CSR';
 
 const PolityTopicsData = [
 	{
@@ -35,6 +36,10 @@ const PolityTopicsData = [
 	{
 		topicId: 'elections',
 		questions: Elections,
+	},
+	{
+		topicId: 'csr',
+		questions: CSR,
 	},
 ];
 
