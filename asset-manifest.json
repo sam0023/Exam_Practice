@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Exam_Practice/static/css/main.64ce4306.css",
-    "main.js": "/Exam_Practice/static/js/main.18e42e9e.js",
+    "main.css": "/Exam_Practice/static/css/main.15f06e05.css",
+    "main.js": "/Exam_Practice/static/js/main.2ee9b743.js",
     "static/js/787.7759acea.chunk.js": "/Exam_Practice/static/js/787.7759acea.chunk.js",
     "static/media/Screenshot (645).png": "/Exam_Practice/static/media/Screenshot (645).62b2e9f2b985ed2a5e74.png",
     "static/media/Screenshot (644).png": "/Exam_Practice/static/media/Screenshot (644).315ec86d0116a4887a76.png",
     "static/media/Screenshot (643).png": "/Exam_Practice/static/media/Screenshot (643).3b202d870daa8d38c04c.png",
     "static/media/chess.mp3": "/Exam_Practice/static/media/chess.04858efe69237ae7a017.mp3",
     "index.html": "/Exam_Practice/index.html",
-    "main.64ce4306.css.map": "/Exam_Practice/static/css/main.64ce4306.css.map",
-    "main.18e42e9e.js.map": "/Exam_Practice/static/js/main.18e42e9e.js.map",
+    "main.15f06e05.css.map": "/Exam_Practice/static/css/main.15f06e05.css.map",
+    "main.2ee9b743.js.map": "/Exam_Practice/static/js/main.2ee9b743.js.map",
     "787.7759acea.chunk.js.map": "/Exam_Practice/static/js/787.7759acea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64ce4306.css",
-    "static/js/main.18e42e9e.js"
+    "static/css/main.15f06e05.css",
+    "static/js/main.2ee9b743.js"
   ]
 }
